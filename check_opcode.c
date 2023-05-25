@@ -14,6 +14,7 @@ instruction_t *check_opcode(char *opcode)
 		{"push", push},
 		{"pall", pall},
 		{"pint", pint},
+		{"pop", pop},
 		{NULL, NULL}
 	};
 
