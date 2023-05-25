@@ -13,6 +13,7 @@ instruction_t *check_opcode(char *opcode)
 	instruction_t op_codes[] = {
 		{"push", push},
 		{"pall", pall},
+		{"pint", pint},
 		{NULL, NULL}
 	};
 
