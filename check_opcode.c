@@ -17,6 +17,11 @@ instruction_t *check_opcode(char *opcode)
 		{"pop", pop},
 		{"swap", swap},
 		{"nop", nop},
+		{"add", _add},
+		{"sub", _sub},
+		{"div", _div},
+		{"mul", _mul},
+		{"mod", _mod},
 		{NULL, NULL}
 	};
 
